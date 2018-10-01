@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Lucas/Desktop/MIPS_MC_com_mult/CPU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="cpu_tb" />
+            <top_module name="p_mrstd" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="75" />
+   <wvobject fp_name="divider115" type="divider">
+      <obj_property name="label">CLK</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_alu/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider40" type="divider">
+      <obj_property name="label">Primeiro</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider24" type="divider">
+      <obj_property name="label">RNPC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider32" type="divider">
+      <obj_property name="label">RIR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RIR/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RIR/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RIR/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider39" type="divider">
+      <obj_property name="label">Segundo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/wreg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wreg</obj_property>
+      <obj_property name="ObjectShortName">wreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_S/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider41" type="divider">
+      <obj_property name="label">REGS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrs[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/r1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/r2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[0:31]</obj_property>
+      <obj_property name="ObjectShortName">reg[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/wen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider53" type="divider">
+      <obj_property name="label">REG_S</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_S/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_S/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_S/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider60" type="divider">
+      <obj_property name="label">REG_T</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_T/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_T/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_T/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">REG_IM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_IM/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_IM/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_IM/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider140" type="divider">
+      <obj_property name="label">Terceiro</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_alu/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/endop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">endop</obj_property>
+      <obj_property name="ObjectShortName">endop</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider147" type="divider">
+      <obj_property name="label">inst_alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_alu/op1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_alu/op2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_alu/outalu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outalu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outalu[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_alu/op_alu" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">op_alu</obj_property>
+      <obj_property name="ObjectShortName">op_alu</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider148" type="divider">
+      <obj_property name="label">REG_alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_alu/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_alu/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_alu/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider155" type="divider">
+      <obj_property name="label">ins_mul</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/multiplicando" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">multiplicando[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multiplicando[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/multiplicador" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">multiplicador[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multiplicador[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/produto" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">produto[63:0]</obj_property>
+      <obj_property name="ObjectShortName">produto[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/regb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regb[32:0]</obj_property>
+      <obj_property name="ObjectShortName">regb[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/inst_mult/cont" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">cont</obj_property>
+      <obj_property name="ObjectShortName">cont</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider167" type="divider">
+      <obj_property name="label">REG_HI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_HI/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_HI/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_HI/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider174" type="divider">
+      <obj_property name="label">REG_LO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_LO/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_LO/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REG_LO/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider181" type="divider">
+      <obj_property name="label">Quarto</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RMDR/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider182" type="divider">
+      <obj_property name="label">RMDR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RMDR/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RMDR/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/RMDR/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider183" type="divider">
+      <obj_property name="label">Quinto</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/rpc/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider184" type="divider">
+      <obj_property name="label">RPC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/rpc/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/rpc/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/rpc/init_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

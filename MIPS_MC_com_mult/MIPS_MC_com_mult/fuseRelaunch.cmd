@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe" -prj "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_beh.prj" "work.CPU_tb" 

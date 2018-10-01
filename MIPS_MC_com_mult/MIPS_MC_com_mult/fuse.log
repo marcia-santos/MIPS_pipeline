@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe -prj C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_beh.prj work.CPU_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/multi_div.vhd" into library work
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd" into library work
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mrStd_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package aux_functions
+Compiling package p_mrstd
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','1','0','0...]
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','0','0','0...]
+Compiling package std_logic_signed
+Compiling architecture regn of entity regnbit [regnbit_default]
+Compiling architecture regn of entity regnbit [\regnbit(('0','0','0','1','0','0...]
+Compiling architecture reg_bank of entity reg_bank [reg_bank_default]
+Compiling architecture alu of entity alu [alu_default]
+Compiling architecture rtl of entity multiplica [multiplica_default]
+Compiling architecture regn of entity regnbit [\regnbit(('0','0','0','0','0','0...]
+Compiling architecture datapath of entity datapath [datapath_default]
+Compiling architecture control_unit of entity control_unit [control_unit_default]
+Compiling architecture mrstd of entity MRstd [mrstd_default]
+Compiling architecture cpu_tb of entity cpu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe
+Fuse Memory Usage: 34644 KB
+Fuse CPU Usage: 763 ms

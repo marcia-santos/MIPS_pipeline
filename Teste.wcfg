@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Lucas/Desktop/MIPS_MC_com_mult/CPU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="cpu_tb" />
+            <top_module name="p_mrstd" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">Primeiro estágio</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="divider38" type="divider">
+         <obj_property name="label">RNPC</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/ce" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RNPC/init_value" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider39" type="divider">
+         <obj_property name="label">RIR</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RIR/ce" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RIR/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RIR/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/RIR/init_value" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">init_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">init_value[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">Segundo estágio</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="divider37" type="divider">
+         <obj_property name="label">REGS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/wreg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wreg</obj_property>
+         <obj_property name="ObjectShortName">wreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">adrs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">adrs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">adrt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">adrt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/adrd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">adrd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">adrd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/rd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/r1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/r2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reg[0:31]</obj_property>
+         <obj_property name="ObjectShortName">reg[0:31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/REGS/wen" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wen[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wen[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

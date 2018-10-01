@@ -1,0 +1,29 @@
+Command line:
+   MRstd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51465
+
+Sun Sep 24 21:19:46 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 851.501 Meg
+
+ Total Signals          : 308
+ Total Nets             : 2227
+ Total Signal Drivers   : 124
+ Total Blocks           : 117
+ Total Primitive Blocks : 50
+ Total Processes        : 121
+ Total Traceable Variables  : 85
+ Total Scalar Nets and Variables : 3982
+Total Line Count : 253
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 851.501 Meg
+
+Sun Sep 24 21:19:51 2017
+

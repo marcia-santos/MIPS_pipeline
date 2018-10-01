@@ -1,0 +1,6 @@
+ Address    Code        Basic                     Source
+
+0x00400000  0x3c01f88f  lui $1,0xf88f         2    main:	li	$t1,0xF88FF88F
+0x00400004  0x3429f88f  ori $9,$1,0xf88f           
+0x00400008  0x00095100  sll $10,$9,0x0004     3    	sll	$t2,$t1,4
+0x0040000c  0x08100003  j 0x0040000c          4    aqui:	j	aqui

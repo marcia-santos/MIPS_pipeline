@@ -1,0 +1,2 @@
+vhdl isim_temp "multi_div.vhd"
+vhdl isim_temp "mips_multiciclo.vhd"

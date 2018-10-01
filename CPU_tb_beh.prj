@@ -1,0 +1,3 @@
+vhdl work "multi_div.vhd"
+vhdl work "mips_multiciclo.vhd"
+vhdl work "mrStd_tb.vhd"

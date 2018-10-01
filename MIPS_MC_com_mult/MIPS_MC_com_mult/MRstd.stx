@@ -1,0 +1,34 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.85 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/calazans/Desktop/MIPS_multi_mult/MIPS_S_V0/multi_div.vhd" in Library work.
+Entity <multiplica> compiled.
+Entity <multiplica> (Architecture <rtl>) compiled.
+Entity <divide> compiled.
+Entity <divide> (Architecture <rtl>) compiled.
+Entity <mult_div_tb> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/calazans/Desktop/MIPS_multi_mult/MIPS_S_V0/multi_div.vhd" Line 272. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/calazans/Desktop/MIPS_multi_mult/MIPS_S_V0/multi_div.vhd" Line 278. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/calazans/Desktop/MIPS_multi_mult/MIPS_S_V0/multi_div.vhd" Line 280. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.42 secs
+ 
+--> 
+
+Total memory usage is 140564 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
