@@ -8,7 +8,13 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Lucas/Desktop/MIPS_MC_com_mult/mips_multiciclo.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/VIRTUAL-BOX/MIPS_MC_pipeline/mips_multiciclo.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/VIRTUAL-BOX/MIPS_MC_pipeline/mrStd_tb.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/VIRTUAL-BOX/MIPS_MC_pipeline/multi_div.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0xfbc00daa */
+/* This file is designed for use with ISim build 0x7708f090 */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd";
+static const char *ng0 = "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd";
 
 
 
@@ -65,17 +65,17 @@ LAB9:    if (t3 != 0)
         goto LAB5;
 
 LAB6:
-LAB3:    t1 = (t0 + 3264);
+LAB3:    t1 = (t0 + 3272);
     *((int *)t1) = 1;
 
 LAB1:    return;
 LAB2:    xsi_set_current_line(73, ng0);
-    t1 = (t0 + 5403);
+    t1 = (t0 + 5519);
     t6 = (31 - 31);
     t7 = (t6 * 1U);
     t8 = (0 + t7);
     t9 = (t1 + t8);
-    t10 = (t0 + 3344);
+    t10 = (t0 + 3352);
     t11 = (t10 + 56U);
     t12 = *((char **)t11);
     t13 = (t12 + 56U);
@@ -105,7 +105,7 @@ LAB7:    t2 = (t0 + 1032U);
 LAB10:    xsi_set_current_line(76, ng0);
     t2 = (t0 + 1512U);
     t10 = *((char **)t2);
-    t2 = (t0 + 3344);
+    t2 = (t0 + 3352);
     t11 = (t2 + 56U);
     t12 = *((char **)t11);
     t13 = (t12 + 56U);

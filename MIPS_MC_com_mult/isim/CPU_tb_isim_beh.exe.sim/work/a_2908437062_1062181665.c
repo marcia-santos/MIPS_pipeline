@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0xfbc00daa */
+/* This file is designed for use with ISim build 0x7708f090 */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd";
+static const char *ng0 = "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd";
 
 
 
@@ -45,7 +45,7 @@ LAB3:    t1 = (t0 + 2632U);
     t3 = (0 + 7U);
     t1 = (t2 + t3);
     t4 = *((unsigned char *)t1);
-    t5 = (t0 + 4872);
+    t5 = (t0 + 4880);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
     t8 = (t7 + 56U);
@@ -53,7 +53,7 @@ LAB3:    t1 = (t0 + 2632U);
     *((unsigned char *)t9) = t4;
     xsi_driver_first_trans_fast_port(t5);
 
-LAB2:    t10 = (t0 + 4760);
+LAB2:    t10 = (t0 + 4768);
     *((int *)t10) = 1;
 
 LAB1:    return;
@@ -81,7 +81,7 @@ LAB3:    t1 = (t0 + 2632U);
     t3 = (0 + 8U);
     t1 = (t2 + t3);
     t4 = *((unsigned char *)t1);
-    t5 = (t0 + 4936);
+    t5 = (t0 + 4944);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
     t8 = (t7 + 56U);
@@ -89,7 +89,7 @@ LAB3:    t1 = (t0 + 2632U);
     *((unsigned char *)t9) = t4;
     xsi_driver_first_trans_fast_port(t5);
 
-LAB2:    t10 = (t0 + 4776);
+LAB2:    t10 = (t0 + 4784);
     *((int *)t10) = 1;
 
 LAB1:    return;
@@ -117,7 +117,7 @@ LAB3:    t1 = (t0 + 2632U);
     t3 = (0 + 9U);
     t1 = (t2 + t3);
     t4 = *((unsigned char *)t1);
-    t5 = (t0 + 5000);
+    t5 = (t0 + 5008);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
     t8 = (t7 + 56U);
@@ -125,7 +125,7 @@ LAB3:    t1 = (t0 + 2632U);
     *((unsigned char *)t9) = t4;
     xsi_driver_first_trans_fast_port(t5);
 
-LAB2:    t10 = (t0 + 4792);
+LAB2:    t10 = (t0 + 4800);
     *((int *)t10) = 1;
 
 LAB1:    return;

@@ -1,12 +1,10 @@
 ISim log file
-Running: /home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.wdb 
-ISim P.20160913 (signature 0xfbc00daa)
-----------------------------------------------------------------------
-WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
-
-
-----------------------------------------------------------------------
-This is a Full version of ISim.
+Running: C:\Users\user\Desktop\arq_org\MIPS_MC_com_mult\MIPS_MC_com_mult\CPU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
@@ -18,11 +16,4 @@ Finished circuit initialization process.
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 at 0 ps: Error: ******************* INVALID INSTRUCTION *************
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# run 1.00us
-# run 1.00us
-at 2070 ns(3): Error: ******************* INVALID INSTRUCTION *************
-# run 1.00us
-# run 1.00us
-at 4430 ns(3): Error: ******************* INVALID INSTRUCTION *************
-# run 1.00us
-# exit 0
+# restart

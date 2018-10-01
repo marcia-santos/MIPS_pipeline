@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="1.7" >
  <header>
-  <DateModified>2018-10-01T00:01:36</DateModified>
+  <DateModified>2015-09-16T09:16:39</DateModified>
   <ModuleName>cpu_tb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <DateInitialized>2010-11-05T13:09:25</DateInitialized>
-  <ImplementationReportsDirectory>/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/</ImplementationReportsDirectory>
-  <SavedFilePath>/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/iseconfig/CPU_tb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/iseconfig/CPU_tb.xreport</SavedFilePath>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

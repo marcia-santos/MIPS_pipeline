@@ -1,15 +1,13 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe -prj /home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_beh.prj work.CPU_tb 
-ISim P.20160913 (signature 0xfbc00daa)
-Number of CPUs detected in this system: 1
-Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe -prj C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_beh.prj work.CPU_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/multi_div.vhd" into library work
-Parsing VHDL file "/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd" into library work
-Parsing VHDL file "/home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/mrStd_tb.vhd" into library work
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/multi_div.vhd" into library work
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mips_multiciclo.vhd" into library work
+Parsing VHDL file "C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/mrStd_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 98068 KB
-Fuse CPU Usage: 5240 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -31,8 +29,8 @@ Compiling architecture control_unit of entity control_unit [control_unit_default
 Compiling architecture mrstd of entity MRstd [mrstd_default]
 Compiling architecture cpu_tb of entity cpu_tb
 Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
 Compiled 31 VHDL Units
-Built simulation executable /home/ise/VIRTUAL-BOX/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe
-Fuse Memory Usage: 121776 KB
-Fuse CPU Usage: 6390 ms
-GCC CPU Usage: 5370 ms
+Built simulation executable C:/Users/user/Desktop/arq_org/MIPS_MC_com_mult/MIPS_MC_com_mult/CPU_tb_isim_beh.exe
+Fuse Memory Usage: 34644 KB
+Fuse CPU Usage: 763 ms
